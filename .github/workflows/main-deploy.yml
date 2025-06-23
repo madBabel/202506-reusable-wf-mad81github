@@ -12,7 +12,7 @@ on:
 
 jobs:
   call-build:
-    uses: ./.github/workflows/o-worflow.yml
+    uses: ./.github/workflows/o-workflow.yml
     with:
       build-status: ${{inputs.build-status}}   
 
